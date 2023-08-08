@@ -1,0 +1,18 @@
+//
+// main.hk
+//
+
+fn say(message) {
+  println("--------------------");
+  println("< " + message + " >");
+  println("--------------------");
+  println("      \   ^__^");
+  println("       \  (oo)\_______");
+  println("          (__)\       )\/\");
+  println("              ||----w |");
+  println("              ||     ||");
+}
+
+return {
+  say: say
+};
